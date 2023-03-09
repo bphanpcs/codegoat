@@ -54,7 +54,7 @@ module "iam" {
 module "instance" {
   source        = "terraform-aws-modules/ec2-instance/aws"
   ami           = var.ami
-  instance_type = "t2.large"
+  instance_type = "t2.2xlarge"
   name          = "example-server"
 
   vpc_security_group_ids = [module.vpc.vpc_sg_id]
