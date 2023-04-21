@@ -193,12 +193,12 @@ resource "aws_s3_bucket" "public-bucket-oops" {
   tags = merge(var.default_tags, {
     name = "example_public_${var.environment}"
     }, {
-    git_commit           = "5e4524cf776f0c30044fcb6c8c82ee9c379f7cd1"
+    git_commit           = "411b42499d3f07561c66b3f588388177f125a6f9"
     git_file             = "terraform/modules/storage/main.tf"
-    git_last_modified_at = "2022-09-26 20:54:59"
+    git_last_modified_at = "2022-12-06 15:16:54"
     git_last_modified_by = "mroberts@paloaltonetworks.com"
     git_modifiers        = "mroberts"
-    git_org              = "try-bridgecrew"
+    git_org              = "bphanpcs"
     git_repo             = "codegoat"
     yor_trace            = "7ecefeab-6519-4a8e-a3f6-8c849f9eff19"
   })

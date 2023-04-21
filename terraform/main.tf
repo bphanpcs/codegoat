@@ -62,12 +62,12 @@ module "instance" {
 
   tags = {
     Environment          = var.env
-    git_commit           = "f5abc4fc41b394b145ee8a23429986184e150ef1"
+    git_commit           = "c38b5b87885763ae3e31597b9d2bf622880d8cce"
     git_file             = "terraform/main.tf"
-    git_last_modified_at = "2022-09-22 19:07:11"
-    git_last_modified_by = "mroberts@m-c02ff1nqml85.paloaltonetworks.local"
-    git_modifiers        = "mroberts"
-    git_org              = "try-bridgecrew"
+    git_last_modified_at = "2023-03-09 17:41:59"
+    git_last_modified_by = "92009631+bphanpcs@users.noreply.github.com"
+    git_modifiers        = "92009631+bphanpcs/mroberts"
+    git_org              = "bphanpcs"
     git_repo             = "codegoat"
     yor_trace            = "a5ffaaa3-e604-4f84-934e-ff1877ca74e0"
   }
