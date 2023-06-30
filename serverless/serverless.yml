@@ -20,6 +20,7 @@ functions:
     tags:
       RESOURCE: lambda
       PUBLIC: false
+      user: pchandaliya
     iamRoleStatements:
       - Effect: Allow
         Action:
