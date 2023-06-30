@@ -18,5 +18,6 @@ resource "aws_iam_role" "admin-role" {
     git_org              = "try-bridgecrew"
     git_repo             = "codegoat"
     yor_trace            = "6b7b8033-6e0a-482d-acc4-05584f723771"
+    user                 = "pchandaliya"
   }
 }

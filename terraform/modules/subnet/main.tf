@@ -11,6 +11,7 @@ resource "aws_subnet" "primary" {
     git_org              = "bphanpcs"
     git_repo             = "codegoat"
     yor_trace            = "de17a83e-d2cf-41c2-833f-c959687ccca6"
+    user                 = "pchandaliya"
   }
 }
 
@@ -27,5 +28,6 @@ resource "aws_subnet" "secondary" {
     git_org              = "bphanpcs"
     git_repo             = "codegoat"
     yor_trace            = "7c0c6cf6-3882-483b-937c-801545bb27f0"
+    user                 = "pchandaliya"
   }
 }

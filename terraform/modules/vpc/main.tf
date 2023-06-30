@@ -9,6 +9,7 @@ resource "aws_vpc" "example" {
     git_org              = "try-bridgecrew"
     git_repo             = "codegoat"
     yor_trace            = "595c04ed-9f1f-4884-9d0c-d9e81b3d45de"
+    user                 = "pchandaliya"
   }
 }
 
@@ -30,6 +31,7 @@ resource "aws_default_security_group" "default" {
     git_org              = "try-bridgecrew"
     git_repo             = "codegoat"
     yor_trace            = "ea82ec59-36e8-4723-8e71-e3dcac8779c6"
+    user                 = "pchandaliya"
   }
 }
 
@@ -53,6 +55,7 @@ resource "aws_security_group" "allow_all_ssh" {
     git_org              = "try-bridgecrew"
     git_repo             = "codegoat"
     yor_trace            = "dc774db6-b43d-473c-81bc-e56179320756"
+    user                 = "pchandaliya"
   }
 }
 
@@ -76,5 +79,6 @@ resource "aws_security_group" "allow_ssh_from_valid_cidr" {
     git_org              = "bphanpcs"
     git_repo             = "codegoat"
     yor_trace            = "fc4802fc-f95c-474e-bb7f-821f148741cb"
+    user                 = "pchandaliya"
   }
 }
